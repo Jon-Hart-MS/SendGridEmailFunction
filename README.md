@@ -57,4 +57,3 @@ Invoke-RestMethod -Uri "http://localhost:7071/api/contactmetrigger" -Method POST
 ## Deployment
 Deploy the function to Azure using your preferred method (Azure CLI, VS Code extensions, or Azure Portal). Ensure the `SENDGRID_API_KEY` setting is configured as an Application Setting in Azure.
 
-```
