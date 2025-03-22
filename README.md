@@ -19,7 +19,7 @@ Azure Functions is a serverless solution on Microsoft Azure. It lets you run eve
    npm install
    ```
 
-3. For local testing, store your SendGrid API key in the local.settings.json file. Update the SENDGRID_API_KEY value with your actual key:
+3. For local testing, store your SendGrid API key in a local.settings.json file in the route folder. Update the SENDGRID_API_KEY value with your actual key:
 
    ```
       {
