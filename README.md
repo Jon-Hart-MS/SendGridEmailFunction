@@ -19,14 +19,14 @@ Azure Functions is a serverless solution on Microsoft Azure. It lets you run eve
    ```
 3. For local testing, store your SendGrid API key in the local.settings.json file. Update the SENDGRID_API_KEY value with your actual key:
    ```
-   {
-  "IsEncrypted": false,
-  "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "node",
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "SENDGRID_API_KEY": "YOUR_SENDGRID_API_KEY"
-  }
-}
+      {
+        "IsEncrypted": false,
+        "Values": {
+         "FUNCTIONS_WORKER_RUNTIME": "node",
+         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+         "SENDGRID_API_KEY": "YOUR_SENDGRID_API_KEY"
+        }
+      }
    ```
 
 ## Running Locally
